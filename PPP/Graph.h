@@ -226,6 +226,9 @@ struct Rectangle : Shape {
 
 	int height() const { return h; }
 	int width() const { return w; }
+
+	void set_style(Line_style::Line_style_type sty, int i);
+
 private:
     int w;			// width
     int h;			// height
